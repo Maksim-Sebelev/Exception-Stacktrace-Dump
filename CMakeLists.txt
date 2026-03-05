@@ -12,7 +12,7 @@ find_package(Boost REQUIRED)
 if (CMAKE_CXX_STANDARD GREATER_EQUAL 20)
 
   set(STACKTRACE_LIB esd)
-  set(STACKTRACE_SRC_DIR ${PROJECT_SOURCE_DIR}/stacktrace)
+  set(STACKTRACE_SRC_DIR ${PROJECT_SOURCE_DIR}/src)
 
   set(STACKTRACE_SRCS
       ${STACKTRACE_SRC_DIR}/exceptions-stacktrace.cppm
